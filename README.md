@@ -2,7 +2,7 @@
 
 **linear-animation** is a *linear animation component* developed by Kunj B Sharma <kunjsharma@hotmail.com> https://github.com/kunjsharma/adapt-linear-animation.git.  
 
-<img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/text01.png" alt="sample text component">
+<img src="assets/adapt-linear-animation.png" alt="Sample linear animation frame">
 
 **linear-animation**'s simple purpose is to present text/images in linear animation form. The text may include HTML.
 
