@@ -1,0 +1,21 @@
+{{! Maintainers - Kunj B Sharma}}
+<div class="linear-animation-inner component-inner" role="region" aria-label="{{_globals._components._linear-animation.ariaRegion}}" {{#if _globals._components._linear-animation.ariaRegion}}tabindex="0"{{/if}}>
+    {{> component this}}
+    <div class="linear-animation-widget component-widget">
+        <div class="linear-animation-widget-container">
+            <img class="linear-animation-widget-bg" src="{{_bg}}"/>
+            <div class="linear-animation-item-holder">
+                {{#each _items}}
+                <div class="linear-animation-item item">
+                    <div class="linear-animation-item-frame">
+                        <img src="{{_graphic._src}}" alt="{{_graphic.alt}}" title="{{{_graphic.alt}}}" tabindex="0"/>
+                    </div>
+                    <div class="linear-animation-item-text" >
+                        {{{a11y_text text}}}
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>

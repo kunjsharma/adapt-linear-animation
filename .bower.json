@@ -1,0 +1,24 @@
+{
+  "name": "adapt-linear-animation",
+  "homepage": "https://github.com/adaptlearning/adapt-linear-animation",
+  "authors": [
+    "Kunj B Sharma <kunjsharma@hotmail.com>"
+  ],
+  "description": "A simple adapt component that creates an animation sequence in linear way by images added in it.",
+  "main": "/js/adapt-linear-animation.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "365fa75947",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "365fa7594785e9b33d43b794aea1853b31ecb829"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-linear-animation.git",
+  "_target": "*",
+  "_originalSource": "adapt-linear-animation",
+  "_direct": true
+}

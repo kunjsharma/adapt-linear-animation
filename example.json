@@ -1,0 +1,26 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "linear-animation",
+  "_animation": "true",
+  "_delay": "1000",
+  "_layout": "full",
+  "title": "Linear Animation",
+  "body": "",
+  "_bg": "course/en/images/bg.png",
+  "_items": [{
+      "text": "",
+      "_graphic": {
+        "_src": "course/en/images/0.png",
+        "alt": ""
+      }
+    },
+    {
+      "text": "",
+      "_graphic": {
+        "_src": "course/en/images/1.png",
+        "alt": ""
+      }
+    }]
+}

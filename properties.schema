@@ -1,0 +1,121 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "$ref": "http://localhost/plugins/content/component/model.schema",
+  "properties":{
+    "_attempts": {
+      "type":"number",
+      "required":true,
+      "default":1
+    },
+    "_isRandom": {
+      "type":"boolean",
+      "required":true
+    },
+    "_questionWeight": {
+      "type":"number",
+      "required":false
+    },
+    "_selectable": {
+      "type":"number",
+      "required":true
+    },
+    "_buttons": {
+      "type":"object",
+      "properties":{
+        "hideCorrectAnswer": {
+          "type":"string"
+        },
+        "reset": {
+          "type":"string"
+        },
+        "showCorrectAnswer": {
+          "type":"string"
+        },
+        "submit": {
+          "type":"string"
+        }
+      }
+    },
+    "_feedback": {
+      "type":"object",
+      "required":true,
+      "properties":{
+        "_incorrect": {
+          "type":"object",
+          "required":true,
+          "properties":{
+            "final": {
+              "type":"string"
+            },
+            "notFinal": {
+              "type":"string"
+            }
+          }
+        },
+        "_partlyCorrect": {
+          "type":"object",
+          "required":true,
+          "properties":{
+            "final": {
+              "type":"string",
+              "required":true
+            },
+            "notFinal": {
+              "type":"string"
+            }
+          }
+        },
+        "correct": {
+          "type":"string",
+          "required":true
+        }
+      }
+    },
+    "_items": {
+      "type":"array",
+      "required":true,
+      "items": {
+        "type":"object",
+        "required":true,
+        "properties":{
+          "_graphic": {
+            "type":"object",
+            "required":true,
+            "properties":{
+              "alt": {
+                "type":"string",
+                "required":false
+              },
+              "large": {
+                "type":"string",
+                "required":true
+              },
+              "medium": {
+                "type":"string",
+                "required":true
+              },
+              "small": {
+                "type":"string",
+                "required":true
+              },
+              "title": {
+                "type":"string",
+                "required":true
+              }
+            }
+          },
+          "_shouldBeSelected": {
+            "type":"boolean",
+            "required":true
+          },
+          "text": {
+            "type":"string",
+            "required":false
+          }
+        }
+      }
+    }
+  }
+}
