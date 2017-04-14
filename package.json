@@ -1,6 +1,6 @@
 {
   "name": "adapt-linear-animation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Description of your component",
   "main": "",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/adaptlearning/adapt-linear-animation.git"
+    "url": "git://github.com/kunjsharma/adapt-linear-animation.git"
   },
-  "author": "AdaptLearning",
+  "author": "Kunj Sharma <kunjsharma@hotmail.com>",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/adaptlearning/adapt-linear-animation/issues"
+    "url": "https://github.com/kunjsharma/adapt-linear-animation/issues"
   },
   "devDependencies": {
     "karma": "~0.9",
