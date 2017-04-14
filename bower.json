@@ -1,15 +1,17 @@
 {
-  "name": "adapt-linear-animation",
-  "version": "0.0.2",
-  "homepage": "https://github.com/adaptlearning/adapt-linear-animation",
-  "authors": [
-    "Kunj B Sharma <kunjsharma@hotmail.com>"
-  ],
-  "description": "Please enter a description about your component here. This is what will get shown when registered with the Adapt registry so make it good",
-  "main": "/js/adapt-linear-animation.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-component"
-  ],
-  "license": "GPLv3"
+    "name": "adapt-linear-animation",
+    "repository": "https://github.com/kunjsharma/adapt-linear-animation.git",
+    "framework": "2.0.15",
+    "version": "0.0.2",
+    "homepage": "https://github.com/kunjsharma/adapt-linear-animation",
+    "authors": [
+        "Kunj B Sharma <kunjsharma@hotmail.com>"
+    ],
+    "description": "Please enter a description about your component here. This is what will get shown when registered with the Adapt registry so make it good",
+    "main": "/js/adapt-linear-animation.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3"
 }
