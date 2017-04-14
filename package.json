@@ -13,7 +13,7 @@
   "author": "Kunj Sharma <kunjsharma@hotmail.com>",
   "license": "GPL v3",
   "bugs": {
-    "url": "https://github.com/kunjsharma/adapt-linear-animation/issues"
+    "url": ""
   },
   "devDependencies": {
     "karma": "~0.9",

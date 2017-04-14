@@ -7,7 +7,7 @@
     "authors": [
         "Kunj B Sharma <kunjsharma@hotmail.com>"
     ],
-    "description": "Please enter a description about your component here. This is what will get shown when registered with the Adapt registry so make it good",
+    "description": "A simple adapt component that creates an animation sequence in linear way by images added in it.",
     "main": "/js/adapt-linear-animation.js",
     "keywords": [
         "adapt-plugin",
