@@ -1,8 +1,10 @@
 # adapt-linear-animation  
 
-**adapt-linear-animation** is an Adapt presentation component that displays images and/or the text one by one. **linear-animation** simply presents text/images in a linear way on the page. The image frame can have jpg/png/gif and the text can be wrapped by markup element. Collaborators are welcome for pull request.
+**adapt-linear-animation** is an Adapt presentation component that displays images and/or the text one by one. **linear-animation** simply presents text/images in a linear way on the page. The image frame can have jpg/png/gif and the text can be wrapped by markup element.
 
 <img src="assets/adapt-linear-animation.png" alt="Sample linear animation frame">
+
+Collaborators are welcome for pull request.
 
 ### Attributes
 
