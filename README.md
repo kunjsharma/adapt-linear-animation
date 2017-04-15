@@ -33,5 +33,5 @@ Intended to develop on standard Adapt browser specifications. Tested in Chrome 5
 ----------------------------
 **Version number:**  0.0.2 
 **Framework versions:** 2.0.15  
-**Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>   
-**Accessibility support:** WAI AA 
+**Accessibility support:** WAI AA
+**Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
