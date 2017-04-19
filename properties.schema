@@ -42,14 +42,14 @@
       "type":"array",
       "required":true,
       "title": "Items",
-      "help": "Each item represents one choice for the animation frames and contains values for text and _graphic."
+      "help": "Each item represents one choice for the animation frames and contains values for text and _graphic.",
       "items": {
         "type":"object",
         "required":true,
         "properties":{
           "text": {
             "type":"string",
-            "required":optional,
+            "required":"optional",
             "default": "",
             "title": "Item Text",
             "inputType": "Text",
