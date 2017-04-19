@@ -3,116 +3,76 @@
   "$schema": "http://json-schema.org/draft-04/schema",
   "id": "http://jsonschema.net",
   "$ref": "http://localhost/plugins/content/component/model.schema",
+  "globals": {
+    "ariaRegion": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "translatable": true
+    }
+  },
   "properties":{
-    "_attempts": {
-      "type":"number",
-      "required":true,
-      "default":1
+    "_supportedLayout": {
+      "type": "string",
+      "required": true,
+      "enum": ["full-width", "half-width", "both"],
+      "default": "both",
+      "editorOnly": true
     },
-    "_isRandom": {
-      "type":"boolean",
-      "required":true
+    "instruction": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "inputType": "Text",
+      "validators": [],
+      "help": "This is the instruction text",
+      "translatable": true
     },
-    "_questionWeight": {
-      "type":"number",
-      "required":false
-    },
-    "_selectable": {
-      "type":"number",
-      "required":true
-    },
-    "_buttons": {
-      "type":"object",
-      "properties":{
-        "hideCorrectAnswer": {
-          "type":"string"
-        },
-        "reset": {
-          "type":"string"
-        },
-        "showCorrectAnswer": {
-          "type":"string"
-        },
-        "submit": {
-          "type":"string"
-        }
-      }
-    },
-    "_feedback": {
-      "type":"object",
-      "required":true,
-      "properties":{
-        "_incorrect": {
-          "type":"object",
-          "required":true,
-          "properties":{
-            "final": {
-              "type":"string"
-            },
-            "notFinal": {
-              "type":"string"
-            }
-          }
-        },
-        "_partlyCorrect": {
-          "type":"object",
-          "required":true,
-          "properties":{
-            "final": {
-              "type":"string",
-              "required":true
-            },
-            "notFinal": {
-              "type":"string"
-            }
-          }
-        },
-        "correct": {
-          "type":"string",
-          "required":true
-        }
-      }
+    "_bg": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "validators": [],
+      "help": "Background image requires to display component correctly in responsive.",
+      "translatable": false
     },
     "_items": {
       "type":"array",
       "required":true,
+      "title": "Items",
+      "help": "Each item represents one choice for the animation frames and contains values for text and _graphic."
       "items": {
         "type":"object",
         "required":true,
         "properties":{
+          "text": {
+            "type":"string",
+            "required":optional,
+            "default": "",
+            "title": "Item Text",
+            "inputType": "Text",
+            "validators": [],
+            "help": "This text will display as an animation frame",
+            "translatable": true
+          },
           "_graphic": {
             "type":"object",
             "required":true,
+            "title": "Graphic",
             "properties":{
               "alt": {
                 "type":"string",
-                "required":false
-              },
-              "large": {
-                "type":"string",
-                "required":true
-              },
-              "medium": {
-                "type":"string",
-                "required":true
-              },
-              "small": {
-                "type":"string",
-                "required":true
-              },
-              "title": {
-                "type":"string",
-                "required":true
+                "required":false,
+                "default": "",
+                "title": "Alternative Text",
+                "inputType": "Text",
+                "validators": [],
+                "help": "The alternative text for this image",
+                "translatable": true
               }
             }
-          },
-          "_shouldBeSelected": {
-            "type":"boolean",
-            "required":true
-          },
-          "text": {
-            "type":"string",
-            "required":false
           }
         }
       }
