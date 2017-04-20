@@ -18,9 +18,7 @@ Collaborators are welcome for pull request.
 
 **_bg** (string): Background image reference. v0.0.1 requires it to display component correctly in responsive.
 
-**_items** (array): Each *item* represents one choice for the animation frames and contains values for **text** and **_graphic**
-  
-<div float align=right><a href="#top">Back to Top</a></div>
+**_items** (array): Each *item* represents one choice for the animation frames and contains values for **text** and **_graphic**.
 
 ### Limitations
 
@@ -28,7 +26,7 @@ Won't work in IE8.
 
 ### Browser/platform specification
 
-Intended to develop on standard Adapt browser specifications. Tested in Chrome 57.0.2987.133, Firefox 52.0.2 (32-bit), IE Edge, iOS 10.3.1 (Chrome and Safari)
+Intended to develop standard Adapt browser/devices specifications. Tested in Chrome 57.0.2987.133, Firefox 52.0.2 (32-bit), IE Edge, iOS 10.3.1 (Chrome and Safari).
 
 ----------------------------
 **Version number:**  0.0.2 
