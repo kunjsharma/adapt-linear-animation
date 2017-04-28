@@ -22,7 +22,7 @@ define(function (require) {
         },
         postRender: function () {
             this.setReadyStatus();
-            if (this.model.get('_animation') == "false") {
+            if (this.model.get('_animation') == false) {
                 this.$(".linear-animation-item-frame").css({
                     "opacity": 1
                 });

@@ -4,7 +4,7 @@
   "_parentId": "b-05",
   "_type": "component",
   "_component": "linear-animation",
-  "_animation": "true",
+  "_animation": true,
   "_delay": "1000",
   "_layout": "full",
   "title": "Linear Animation",

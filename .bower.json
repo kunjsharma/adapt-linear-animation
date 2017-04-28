@@ -11,7 +11,7 @@
     "adapt-component"
   ],
   "license": "GPLv3",
-  "_release": "0.0.2",
+  "_release": "0.0.3",
   "_resolution": {
     "type": "branch",
     "branch": "master",

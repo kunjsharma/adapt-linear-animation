@@ -29,7 +29,7 @@ Won't work in IE8.
 Intended to develop standard Adapt browser/devices specifications. Tested in Chrome 57.0.2987.133, Firefox 52.0.2 (32-bit), IE Edge, iOS 10.3.1 (Chrome and Safari).
 
 ----------------------------
-**Version number:**  0.0.2 
+**Version number:**  0.0.3 
 **Framework versions:** 2.0.15  
 **Accessibility support:** WAI AA    
 **Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
