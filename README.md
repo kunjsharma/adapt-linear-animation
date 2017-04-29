@@ -12,7 +12,7 @@ Collaborators are welcome for pull request.
 
 **_component** (string): This value must be: `linear-animation`.
 
-**_animation** (string): Whether animation required or not.
+**_animation** (boolean): Whether animation required or not.
 
 **_delay** (string): Time interval between display of 2 images in milliseconds.
 
