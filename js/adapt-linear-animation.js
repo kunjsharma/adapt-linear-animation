@@ -29,32 +29,30 @@ define(function (require) {
                 this.setCompletionStatus();
                 return;
             }
-            var scolevel0 = this;
-            var delay = Number(this.model.get('_delay'));
-            var isie8 = $('html').hasClass('ie8') || $('html').hasClass('ie7');
+            var _oScoLevel0 = this, _nDelay = Number(this.model.get('_delay')), _bIsIE8 = $('html').hasClass('ie8') || $('html').hasClass('ie7');
             this.$(".linear-animation-widget").bind('inview', function (event, visible) {
                 if (visible == true) {
-                    if (isie8) {
-                        scolevel0.$(".linear-animation-item-frame img").css({
+                    if (_bIsIE8) {
+                        _oScoLevel0.$(".linear-animation-item-frame img").css({
                             "opacity": "1",
                             "position": "absolute"
                         });
-                        scolevel0.setCompletionStatus();
+                        _oScoLevel0.setCompletionStatus();
                         return;
                     } else {
-                        var $item = $(this).find('.linear-animation-item');
-                        //var $item = $('.linear-animation-item');
-                        var slideCount = $item.length;
-                        $item.each(function (index) {
-                            var scoLevel1 = this;
-                            $(this).children(".linear-animation-item-text").delay(delay * index).animate({
+                        var _eItem = $(this).find('.linear-animation-item');
+                        //var _eItem = $('.linear-animation-item');
+                        var slideCount = _eItem.length;
+                        _eItem.each(function (index) {
+                            var _oScoLevel1 = this;
+                            $(this).children(".linear-animation-item-text").delay(_nDelay * index).animate({
                                 opacity: 1
                             }, 500, function () {
-                                $(scoLevel1).children(".linear-animation-item-frame").delay(50).animate({
+                                $(_oScoLevel1).children(".linear-animation-item-frame").delay(50).animate({
                                     opacity: 1
                                 }, 500, function () {
                                     if (index == (slideCount - 1)) {
-                                        scolevel0.setCompletionStatus();
+                                        _oScoLevel0.setCompletionStatus();
                                     }
                                 });
                             });
