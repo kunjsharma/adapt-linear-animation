@@ -1,7 +1,7 @@
 {
     "name": "adapt-linear-animation",
     "repository": "https://github.com/kunjsharma/adapt-linear-animation.git",
-    "framework": "2.0.15",
+    "framework": "^2.0.15",
     "version": "0.0.3",
     "homepage": "https://github.com/kunjsharma/adapt-linear-animation",
     "authors": [
