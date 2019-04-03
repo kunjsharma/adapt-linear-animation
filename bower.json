@@ -11,7 +11,8 @@
     "main": "/js/adapt-linear-animation.js",
     "keywords": [
         "adapt-plugin",
-        "adapt-component"
+        "adapt-component",
+        "adapt-linear-animation"
     ],
     "license": "GPLv3"
 }
