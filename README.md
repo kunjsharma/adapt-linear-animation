@@ -4,7 +4,9 @@
 
 <img src="assets/adapt-linear-animation.png" alt="Sample linear animation frame">
 
-Collaborators are welcome for pull request.
+### Demo
+
+https://kunjsharma.github.io/#/id/co-00
 
 ### Attributes
 
