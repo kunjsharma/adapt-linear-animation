@@ -4,10 +4,6 @@
 
 <img src="assets/adapt-linear-animation.png" alt="Sample linear animation frame">
 
-### Demo
-
-https://kunjsharma.github.io/#/id/co-00
-
 ### Attributes
 
 [**core model attributes**](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes): These are inherited by every Adapt component. [Read more](https://github.com/adaptlearning/adapt_framework/wiki/Core-model-attributes).
