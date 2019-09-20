@@ -30,4 +30,4 @@ Intended to develop standard Adapt browser/devices specifications. Tested in Chr
 **Version number:**  0.0.3 
 **Framework versions:** 2.0.15  
 **Accessibility support:** WAI AA    
-**Author / maintainer:** Kunj B Sharma <kunjsharma@hotmail.com>    
+**Author / maintainer:** Kunj <kunjsharma@hotmail.com>    
